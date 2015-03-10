@@ -1,0 +1,49 @@
+﻿<gallery>
+	<settings>
+		<imagesFolder>images/</imagesFolder>		
+		<bgImage  alpha="100" source="images/bg.jpg"/>
+
+		<image align="center" cornerRadius="0" scaleMode="fill" transitionEffect="fade" useShadow="true"/>
+		<thumbnail width="60" height="40" cornerRadius="0" alpha="70" outlineColor="0xFFFFFF" outlineColorOnRollOver="0xFFFFFF" outlineColorOnClick="0x8B0000" useShadow="true" usePreview="true"/>
+		<thumbBar scrollSpeed="10" position="bottom"/>
+		<preview  alpha="100" width="200" height="100" outlineColor="0xFFFFFF" useShadow="true" cornerRadius="0"/>
+		<caption position="bottom" bgAlpha="30" color="0xFFFFFF" bgColor="0x000000" fontName="Verdana" fontSize="12"/>
+		<slideshow start="false" delay="3" loop="true" stopAutoOnClick="true"/>
+		<preloader alpha="100" usePreloader="true" />
+		<buttons fullScreenButton="true" navigationButtons="true" slideshowButton="true" />
+		<sounds onRollOver="sounds/over.mp3" onClick="" />
+
+		<flickr><![CDATA[]]></flickr>
+		<picasa user="" albumID="" />
+	</settings>
+	<items>
+		<item source="1.jpg" thumb="1.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="2.jpg" thumb="2.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="3.jpg" thumb="3.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="4.jpg" thumb="4.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="5.jpg" thumb="5.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="6.jpg" thumb="6.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="7.jpg" thumb="7.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="8.jpg" thumb="8.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="9.jpg" thumb="9.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="10.jpg" thumb="10.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="11.jpg" thumb="11.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="12.jpg" thumb="12.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="13.jpg" thumb="13.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="14.jpg" thumb="14.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="15.jpg" thumb="15.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="16.jpg" thumb="16.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="17.jpg" thumb="17.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="18.jpg" thumb="18.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="19.jpg" thumb="19.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="20.jpg" thumb="20.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="21.jpg" thumb="21.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="22.jpg" thumb="22.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="23.jpg" thumb="23.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="24.jpg" thumb="24.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="25.jpg" thumb="25.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="26.jpg" thumb="26.jpg" description="Thunder Over Cedar Creek Lake"/>
+		<item source="27.jpg" thumb="27.jpg" description="Thunder Over Cedar Creek Lake"/>
+	
+	</items>
+</gallery>								 

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsBusinessInfo" value="name:ID;datatype:int,name:BusinessName;datatype:string,name:OwnerName;datatype:string,name:Address;datatype:string,name:City;datatype:string,name:State;datatype:string,name:Zip;datatype:int,name:Phone1;datatype:string,name:Phone2;datatype:string,name:Email;datatype:string,name:Website;datatype:string" />
+	<infoitem key="UD_rsPhoto" value="name:PhotoID;datatype:int,name:Date;datatype:timestamp,name:Category;datatype:int,name:Description;datatype:blob,name:Photo;datatype:string,name:PhotoAlt;datatype:string,name:ID;datatype:int,name:CategoryName;datatype:string" />
+	<infoitem key="UD_rsPhotos" value="name:PhotoID;datatype:int,name:Date;datatype:timestamp,name:Category;datatype:int,name:Description;datatype:blob,name:Photo;datatype:string,name:PhotoAlt;datatype:string,name:ID;datatype:int,name:CategoryName;datatype:string" />
+</info>

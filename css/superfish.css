@@ -1,0 +1,232 @@
+nav>.sf-menu {
+	z-index: 990;
+	text-align: left;
+	position: relative;
+}
+
+nav { 
+	margin: 0 4px 0 0;
+	position:relative;
+	padding: 0;
+	float: right;
+	height: 115px;
+}
+
+.sf-menu ul { 
+	position:absolute; 
+	top:-999px; 
+	display:none;
+	font: normal 20px 'Jockey One', sans-serif;
+}
+
+.sf-menu li { float:left;position:relative; }
+.sf-menu>li {
+	display: block;
+	position: relative;
+	float: left;
+	text-transform: uppercase;
+	padding: 0 0 0 1px;
+}
+
+.sf-menu>li>ul>li {
+  float: none;
+  position: static;
+}
+
+.sf-menu>li>a{
+	display: block;
+	text-align: left;
+	position: relative;
+	color: #fff;
+	font-family: 'Jockey One', sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 18px;
+	padding: 68px 12px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	-webkit-text-shadow: 1px 1px 1px #6C6A66;
+	-moz-text-shadow: 1px 1px 1px #6C6A66;
+	-ms-text-shadow: 1px 1px 1px #6C6A66;
+	-o-text-shadow: 1px 1px 1px #6C6A66;
+	text-shadow: 1px 1px 1px #6C6A66;
+}
+
+.sf-menu>li+li>a {
+
+}
+
+.sf-menu>li>a:hover,
+.sf-menu>li.current>a,
+.sf-menu>li.sfHover>a {
+	background: #f18800;
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	background-color: #1B75BC;
+}
+
+.sf-menu>li:hover, .sf-menu>li.current {
+	cursor: pointer;
+}
+
+.sf-menu>li>a.sf-with-ul:after {
+	position: absolute;
+	content: '';
+	left: 50%;
+	width: 9px;
+	background: url(../images/arrow-menu.png) 0 5px no-repeat;
+	height: 9px;
+	pointer-events: none;
+	z-index: 999;
+	display: block;
+}
+
+.sf-menu>li.sfHover>a.sf-with-ul:after, 
+.sf-menu>li.current>a.sf-with-ul:after {
+	
+}
+
+.sf-menu>li>ul>li>a.sf-with-ul:after {
+	content: '';
+	position: absolute;
+	display: none;
+	width: 5px;
+	height: 4px;
+	right: 20px;
+	bottom: 11px;
+	pointer-events: none;
+	z-index: 999;
+}
+
+.sf-menu>li>ul>li.sfHover>a.sf-with-ul:after {
+	background-position: 0 bottom;
+}
+
+/*================================>> 2 Level <<========================================*/
+
+.sf-menu li ul,.sf-menu li.sfHover>ul{
+	position: absolute;
+	z-index: 999;
+	top: 89px;
+	left: 11px;
+	padding: 18px 0 17px;
+	background-color: #282828;
+}
+
+.sf-menu li ul li{
+	position: relative;
+	text-align: left;
+	float: none !important;
+	text-transform: uppercase;
+	padding: 3px 23px 3px 24px;
+	cursor: default!important;
+}
+
+.sf-menu li ul li a{
+	position: relative;
+	z-index: 999;
+	display: inline-block;
+	color: #ffffff;
+	font: normal 9px/28px Arial;
+	text-decoration: none;
+}
+
+.sf-menu>li>ul>li>a.sf-with-ul:after {
+	position: absolute;
+	content: '';
+	right: -15px;
+	width: 9px;
+	background: url(../images/arrow-menu.png) 0 0 no-repeat;
+	height: 6px;
+	pointer-events: none;
+	z-index: 999;
+	display: block;
+	opacity: .7;
+}
+
+.sf-menu>li>ul>li.sfHover>a.sf-with-ul:after {
+	background: url(../images/arrow-menu.png) 0 0 no-repeat;
+	opacity: .4;
+}
+
+.sf-menu li li a:hover, 
+.sf-menu li.sfHover li.sfHover>a {  
+	color: #f18800;
+	text-decoration: none;
+}
+
+/*================================>> 3 Level <<========================================*/
+
+.sf-menu li.sfHover li.sfHover ul{
+	position: absolute;
+	left: 113px;
+	top: -2px;
+	background: #f18800;
+	padding: 5px 12px 2px 0;
+}
+
+.sf-menu li.sfHover li.sfHover ul li {
+	padding: 0 22px 5px 20px;
+}
+
+.sf-menu li.sfHover li.sfHover ul li a {
+	color: #ffffff;
+	padding-right: 0;
+}
+
+.sf-menu li.sfHover li.sfHover ul li a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+@media only screen and (max-width: 995px) {
+
+	.sf-menu > li > a {
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.menu_block {
+		float: none !important;
+		clear: both;
+		min-height: 0px;
+  		border: none;
+  		width: auto;
+	}
+
+  	header nav{
+  		border: none !important;
+		float:none !important;
+		font:12px/15px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#927c67;
+		margin: 0 auto;
+		height: 19px;
+	}	
+
+  	header nav ul {
+  		border: none;
+    }
+
+	.sf-menu{display:none !important; float: none;}
+
+	#mm0{
+		font:12px/15px Arial, Helvetica, sans-serif;
+		color:#202020;
+		width:100%;
+		margin: 22px auto;
+		float: none;
+        outline: none;
+		border:1px solid #f1f1f1;
+		position: relative;
+		z-index: 100;
+	}	
+
+}

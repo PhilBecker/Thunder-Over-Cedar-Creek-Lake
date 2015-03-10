@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+body {
+
+	background-image: url(../layout/AirShowBackground.jpg);
+
+	background-repeat: repeat-x;
+
+	background-position: center top;
+
+	margin: 0px;
+
+	padding: 0px;
+
+	text-align: center;
+
+}
+
+.footer {
+
+	background-image: url(../layout/AirShow_07.jpg);
+
+	background-repeat: repeat-x;
+
+	background-position: center top;
+
+	height: 105px;
+
+}
+
+#footer {
+
+	background-image: url(../layout/AirShow_06.jpg);
+
+	background-repeat: repeat-x;
+
+	background-position: center top;
+
+	height: 75px;
+
+	width: 900px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	color: #FFFFFF;
+
+	text-align: left;
+
+	padding-top: 30px;
+
+}
+
+#footer a:link {
+
+	color: #FFFFFF;
+
+	text-decoration: none;
+
+	font-weight: normal;
+
+}
+
+#footer a:visited {
+
+	color: #FFFFFF;
+
+	text-decoration: none;
+
+	font-weight: normal;
+
+}
+
+#footer a:hover {
+
+	color: #0F79C5;
+
+	text-decoration: none;
+
+	font-weight: normal;
+
+}
+
+.topcap {
+
+	background-image: url(../layout/AirShow_02.jpg);
+
+	background-repeat: no-repeat;
+
+	background-position: center top;
+
+	height: 157px;
+
+}
+
+.header {
+
+	background-image: url(../layout/toccl_home.png);
+
+	background-repeat: no-repeat;
+
+	background-position: center top;
+
+	height: 352px;
+
+}
+
+h1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 18px;
+
+	font-style: italic;
+
+	font-weight: bold;
+
+	color: #01416D;
+
+}
+
+p {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 150%;
+
+	color: #000000;
+
+	text-align: justify;
+
+}
+
+.content {
+
+	height: 291px;
+
+	padding-bottom: 40px;
+
+}
+
+h2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	color: #EB1C26;
+
+}
+
+li {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 150%;
+
+	color: #000000;
+
+	text-align: justify;
+
+}
+
+a:link {
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration: none;
+
+}
+
+a:active {
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	font-weight: bold;
+
+	color: #CC0000;
+
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	font-weight: bold;
+
+	color: #0F79C5;
+
+	text-decoration: none;
+
+}
+
+.contentimg {
+
+	margin-right: 10px;
+
+	margin-left: 10px;
+
+}
+
+#ctm {
+
+	float: left;
+
+	margin-right: 20px;
+
+}
+
+.homenav {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-style: italic;
+
+	color: #0F79C5;
+
+	font-weight: bold;
+
+	text-align: center;
+
+}
+
+.homenav a:link {
+
+	color: #0F79C5;
+
+	font-weight: bold;
+
+}
+
+.homenav a:visited {
+
+	color: #0F79C5;
+
+	font-weight: bold;
+
+}
+
+.homenav a:hover {
+
+	color: #CC0000;
+
+	font-weight: bold;
+
+}
+
+#sponsorshipcontainer {
+
+	padding: 20px;
+
+	background-color: #EAE7E0;
+
+}
+
+#sponsorshipcontainer h1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: #01416D;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	margin: 0px;
+
+	padding-top: 0px;
+
+	padding-right: 0px;
+
+	padding-bottom: 5px;
+
+	padding-left: 0px;
+
+	border-bottom-width: 1px;
+
+	border-bottom-style: solid;
+
+	border-bottom-color: #CC0000;
+
+	text-align: center;
+
+}
+
+#sponsorshipcontainer p {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 150%;
+
+	color: #01416D;
+
+	text-align: justify;
+
+}
+

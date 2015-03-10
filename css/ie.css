@@ -1,0 +1,44 @@
+
+a.link_1, .extra_wrapper a.link_1, .extra_wrapper a.link_1:hover, 
+.socials li a img:hover, .btn_holder a, .circle, .btn_holder a:hover { behavior:url(js/PIE.htc); }
+
+.for_ie {
+	background: url(../images/ie_bg.png) 0 0 repeat;
+	position: absolute;
+	height: 156px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.image_box img {z-index: 1;position: relative;}
+
+.socials li {height: 30px;}
+.socials li a img {
+	border-radius: 500px; 
+	position: relative; 
+	behavior:url(js/PIE.htc);
+}
+
+.socials li a img:hover {
+	border: 1px solid #f18800; 
+}
+
+#form .invalid .error-message, #form .empty .empty-message {
+	display: block;
+}
+
+#form .error-message, #form .empty-message {
+	display: none;
+}
+
+.back {
+	background: url(../images/slide_1.jpg) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: block;
+    margin: 0;
+    height: 145px;
+    padding-top: 0%;
+}
